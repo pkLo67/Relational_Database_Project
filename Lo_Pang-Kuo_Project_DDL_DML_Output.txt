@@ -1,0 +1,934 @@
+## DDL Output:
+-------------------------------------------------------------------------------------
+
+
+Trigger TRG_PRESC_DRUG dropped.
+
+
+Trigger TRG_PRESCRIPTION dropped.
+
+
+Trigger TRG_DOCTOR dropped.
+
+
+Trigger TRG_PATIENT dropped.
+
+
+Trigger TRG_DRUG dropped.
+
+
+Trigger TRG_PHARMACY dropped.
+
+
+Sequence SEQ_DOCTOR_ID dropped.
+
+
+Sequence SEQ_PATIENT_ID dropped.
+
+
+Sequence SEQ_PRESC_ID dropped.
+
+
+Sequence SEQ_PHARM_ID dropped.
+
+
+Sequence SEQ_PRESC_DRUG_ID dropped.
+
+
+View DOCTOR_VIEW dropped.
+
+
+View PATIENT_VIEW dropped.
+
+
+View DRUG_VIEW dropped.
+
+
+View PHARMACY_VIEW dropped.
+
+
+View PRESCRIPTION_VIEW dropped.
+
+
+View PRESC_DRUG_VIEW dropped.
+
+
+View PRESC_PAT_DR dropped.
+
+
+View COST_PER_PRESC dropped.
+
+
+Index DOCTOR_TEL_IDX dropped.
+
+
+Index PATIENT_SSN_IDX dropped.
+
+
+Index PATIENT_TEL_IDX dropped.
+
+
+Index PHARM_TEL_IDX dropped.
+
+
+Index PRESC_DOCTOR_FK_IDX dropped.
+
+
+Index PRESC_PATIENT_FK_IDX dropped.
+
+
+Index PRESC_DRUG_DRUG_FK_IDX dropped.
+
+
+Index PRESC_DRUG_PHARMACY_FK_IDX dropped.
+
+
+Index PRESC_DRUG_PRESCRIPTION_FK_IDX dropped.
+
+
+Index DR_FIRST_NAME_IDX dropped.
+
+
+Index DR_LAST_NAME_IDX dropped.
+
+
+Index PAT_FIRST_NAME_IDX dropped.
+
+
+Index PAT_LAST_NAME_IDX dropped.
+
+
+Index DRUG_COST_IDX dropped.
+
+
+Index PHARM_NAME_IDX dropped.
+
+
+Index PHARM_CITY_IDX dropped.
+
+
+Index PHARM_ZIP_IDX dropped.
+
+
+Table PRESC_DRUG dropped.
+
+
+Table PRESCRIPTION dropped.
+
+
+Table DOCTOR dropped.
+
+
+Table PATIENT dropped.
+
+
+Table DRUG dropped.
+
+
+Table PHARMACY dropped.
+
+
+Table DOCTOR created.
+
+
+Table DOCTOR altered.
+
+
+Table DRUG created.
+
+
+Table DRUG altered.
+
+
+Table PATIENT created.
+
+
+Table PATIENT altered.
+
+
+Table PHARMACY created.
+
+
+Table PHARMACY altered.
+
+
+Table PRESCRIPTION created.
+
+
+Table PRESCRIPTION altered.
+
+
+Table PRESC_DRUG created.
+
+
+Table PRESC_DRUG altered.
+
+
+Table PRESCRIPTION altered.
+
+
+Table PRESCRIPTION altered.
+
+
+Table PRESC_DRUG altered.
+
+
+Table PRESC_DRUG altered.
+
+
+Table PRESC_DRUG altered.
+
+
+INDEX DOCTOR_TEL_IDX created.
+
+
+INDEX PATIENT_SSN_IDX created.
+
+
+INDEX PATIENT_TEL_IDX created.
+
+
+INDEX PHARM_TEL_IDX created.
+
+
+Index PRESC_DOCTOR_FK_IDX created.
+
+
+Index PRESC_PATIENT_FK_IDX created.
+
+
+Index PRESC_DRUG_DRUG_FK_IDX created.
+
+
+Index PRESC_DRUG_PHARMACY_FK_IDX created.
+
+
+Index PRESC_DRUG_PRESCRIPTION_FK_IDX created.
+
+
+Index DR_FIRST_NAME_IDX created.
+
+
+Index DR_LAST_NAME_IDX created.
+
+
+Index PAT_FIRST_NAME_IDX created.
+
+
+Index PAT_LAST_NAME_IDX created.
+
+
+Index DRUG_COST_IDX created.
+
+
+Index PHARM_NAME_IDX created.
+
+
+Index PHARM_CITY_IDX created.
+
+
+Index PHARM_ZIP_IDX created.
+
+
+Table DOCTOR altered.
+
+
+Table PATIENT altered.
+
+
+Table DRUG altered.
+
+
+Table PHARMACY altered.
+
+
+Table PRESCRIPTION altered.
+
+
+Table PRESC_DRUG altered.
+
+
+View DOCTOR_VIEW created.
+
+
+View PATIENT_VIEW created.
+
+
+View DRUG_VIEW created.
+
+
+View PHARMACY_VIEW created.
+
+
+View PRESCRIPTION_VIEW created.
+
+
+View PRESC_DRUG_VIEW created.
+
+
+View PRESC_PAT_DR created.
+
+
+View COST_PER_PRESC created.
+
+
+Sequence SEQ_DOCTOR_ID created.
+
+
+Sequence SEQ_PATIENT_ID created.
+
+
+Sequence SEQ_PRESC_ID created.
+
+
+Sequence SEQ_PHARM_ID created.
+
+
+Sequence SEQ_PRESC_DRUG_ID created.
+
+
+Trigger TRG_DOCTOR compiled
+
+
+Trigger TRG_PATIENT compiled
+
+
+Trigger TRG_PRESCRIPTION compiled
+
+
+Trigger TRG_DRUG compiled
+
+
+Trigger TRG_PHARMACY compiled
+
+
+Trigger TRG_PRESC_DRUG compiled
+
+
+TABLE_NAME                          
+-----------------------------------
+DOCTOR
+DRUG
+PATIENT
+PHARMACY
+PRESCRIPTION
+PRESC_DRUG
+
+6 rows selected. 
+
+
+OBJECT_NAME                               STATUS  CREATED   LAST_DDL_TIME
+----------------------------------------- ------- --------- -------------
+COST_PER_PRESC                            VALID   11-DEC-22 11-DEC-22
+PRESC_PAT_DR                              VALID   11-DEC-22 11-DEC-22
+DOCTOR                                    VALID   11-DEC-22 11-DEC-22
+DOCTOR_PK                                 VALID   11-DEC-22 11-DEC-22
+DRUG                                      VALID   11-DEC-22 11-DEC-22
+DRUG_PK                                   VALID   11-DEC-22 11-DEC-22
+PATIENT                                   VALID   11-DEC-22 11-DEC-22
+PATIENT_PK                                VALID   11-DEC-22 11-DEC-22
+PHARMACY                                  VALID   11-DEC-22 11-DEC-22
+PHARMACY_PK                               VALID   11-DEC-22 11-DEC-22
+PRESCRIPTION                              VALID   11-DEC-22 11-DEC-22
+
+OBJECT_NAME                               STATUS  CREATED   LAST_DDL_TIME
+----------------------------------------- ------- --------- -------------
+PRESCRIPTION_PK                           VALID   11-DEC-22 11-DEC-22
+PRESC_DRUG                                VALID   11-DEC-22 11-DEC-22
+PRESC_DRUG_PK                             VALID   11-DEC-22 11-DEC-22
+DOCTOR_TEL_IDX                            VALID   11-DEC-22 11-DEC-22
+PATIENT_SSN_IDX                           VALID   11-DEC-22 11-DEC-22
+PATIENT_TEL_IDX                           VALID   11-DEC-22 11-DEC-22
+PHARM_TEL_IDX                             VALID   11-DEC-22 11-DEC-22
+PRESC_DOCTOR_FK_IDX                       VALID   11-DEC-22 11-DEC-22
+PRESC_PATIENT_FK_IDX                      VALID   11-DEC-22 11-DEC-22
+PRESC_DRUG_DRUG_FK_IDX                    VALID   11-DEC-22 11-DEC-22
+PRESC_DRUG_PHARMACY_FK_IDX                VALID   11-DEC-22 11-DEC-22
+
+OBJECT_NAME                               STATUS  CREATED   LAST_DDL_TIME
+----------------------------------------- ------- --------- -------------
+PRESC_DRUG_PRESCRIPTION_FK_IDX            VALID   11-DEC-22 11-DEC-22
+DR_FIRST_NAME_IDX                         VALID   11-DEC-22 11-DEC-22
+DR_LAST_NAME_IDX                          VALID   11-DEC-22 11-DEC-22
+PAT_FIRST_NAME_IDX                        VALID   11-DEC-22 11-DEC-22
+PAT_LAST_NAME_IDX                         VALID   11-DEC-22 11-DEC-22
+DRUG_COST_IDX                             VALID   11-DEC-22 11-DEC-22
+PHARM_NAME_IDX                            VALID   11-DEC-22 11-DEC-22
+PHARM_CITY_IDX                            VALID   11-DEC-22 11-DEC-22
+PHARM_ZIP_IDX                             VALID   11-DEC-22 11-DEC-22
+SEQ_DOCTOR_ID                             VALID   11-DEC-22 11-DEC-22
+SEQ_PATIENT_ID                            VALID   11-DEC-22 11-DEC-22
+
+OBJECT_NAME                               STATUS  CREATED   LAST_DDL_TIME
+----------------------------------------- ------- --------- -------------
+SEQ_PRESC_ID                              VALID   11-DEC-22 11-DEC-22
+SEQ_PHARM_ID                              VALID   11-DEC-22 11-DEC-22
+SEQ_PRESC_DRUG_ID                         VALID   11-DEC-22 11-DEC-22
+DOCTOR_VIEW                               VALID   11-DEC-22 11-DEC-22
+PATIENT_VIEW                              VALID   11-DEC-22 11-DEC-22
+DRUG_VIEW                                 VALID   11-DEC-22 11-DEC-22
+PHARMACY_VIEW                             VALID   11-DEC-22 11-DEC-22
+PRESCRIPTION_VIEW                         VALID   11-DEC-22 11-DEC-22
+PRESC_DRUG_VIEW                           VALID   11-DEC-22 11-DEC-22
+TRG_DOCTOR                                VALID   11-DEC-22 11-DEC-22
+TRG_PATIENT                               VALID   11-DEC-22 11-DEC-22
+
+OBJECT_NAME                               STATUS  CREATED   LAST_DDL_TIME
+----------------------------------------- ------- --------- -------------
+TRG_PRESCRIPTION                          VALID   11-DEC-22 11-DEC-22
+TRG_DRUG                                  VALID   11-DEC-22 11-DEC-22
+TRG_PHARMACY                              VALID   11-DEC-22 11-DEC-22
+TRG_PRESC_DRUG                            VALID   11-DEC-22 11-DEC-22
+
+48 rows selected. 
+ 
+
+
+
+
+## DML Output:
+-------------------------------------------------------------------------------------
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Commit complete.
+
+
+
+
+
+
+## Query Output:
+-------------------------------------------------------------------------------------
+
+
+
+ DOCTOR_ID DR_FIRST_NAME                  DR_LAST_NAME                   DR_SPECIALTY                             DR_ADDRESS                                         DOCTOR_TEL   DOCTOR_EMAIL                                       CREATED_BY                     DATE_CREA MODIFIED_BY                    DATE_MODI
+---------- ------------------------------ ------------------------------ ---------------------------------------- -------------------------------------------------- ------------ -------------------------------------------------- ------------------------------ --------- ------------------------------ ---------
+         1 Fernand                        Hanks                          Internal Medicine                        254 Bleeker, New York, NY 10005                    212-545-1216 fhands@gmail.com                                   SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+         2 Marilyn                        Frantzen                       Pediatrics                               100 East 87th, New York, NY 10015                  212-569-3762 mfrantzen@gmail.com                                SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+         3 Anita                          Morris                         Orthopedics                              34 Maiden Lane, New York, NY 10015                 212-388-3476 amorris@gmail.com                                  SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+         4 Rick                           Chow                           Family Medicine                          56 10th Avenue, New York, NY 10015                 212-485-1762 rchow@gmail.com                                    SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+         5 Tom                            Wojick                         Neurology                                518 West 120th, New York, NY 10025                 212-684-9832 twojick@gmail.com                                  SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+         6 Nina                           Schorin                        Urology                                  210 West 101st, New York, NY 10025                 212-774-2685 nschorin@gmail.com                                 SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+         7 Todd                           Smythe                         Dermatology                              210 West 103st, New York, NY 10025                 212-775-9837 tsmythe@gmail.com                                  SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+         8 Charles                        Lowry                          Ophthalmology                            518 West 120th, New York, NY 10025                 212-566-3644 clowry@gmail.com                                   SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+         9 Gary                           Pertez                         Cardiology                               34 Sixth Ave, New York, NY 10035                   212-787-7543 gpertez@gmail.com                                  SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+        10 Irene                          Willig                         Cardiology                               415 West 101st, New York, NY 10045                 212-845-2548 iwillig@gmail.com                                  SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+
+10 rows selected. 
+
+
+PATIENT_ID PAT_FIRST_NAME                 PAT_LAST_NAME                  PATIENT_D PATIENT_SSN
+---------- ------------------------------ ------------------------------ --------- -----------
+         1 Fred                           Crocitto                       02-JAN-00 218-51-3692
+         2 Laetia                         Enison                         16-MAR-98 217-61-9372
+         3 Angel                          Moskowitz                      22-OCT-94 213-41-9281
+         4 Judith                         Olvsade                        08-JUN-92 214-61-2847
+         5 Catherine                      Mierzwa                        18-NOV-96 215-71-4923
+         6 Judy                           Sethi                          12-APR-99 217-81-8237
+         7 Winsome                        Laporte                        21-MAY-95 213-42-3648
+         8 Sean                           Pineda                         27-AUG-91 212-31-5493
+         9 Angela                         Torres                         05-DEC-92 212-31-1038
+        10 Monica                         Waldman                        18-FEB-98 216-71-4037
+
+10 rows selected. 
+
+
+  PRESC_ID TOTAL_COST PAT_FIRST_NAME                 PAT_LAST_NAME                  PAY_METHOD           CARD_NO         
+---------- ---------- ------------------------------ ------------------------------ -------------------- ----------------
+         1      46.06 Angel                          Moskowitz                      credit card          2830174387483284
+         2       96.6 Catherine                      Mierzwa                        credit card          4734537940355473
+         3     226.52 Fred                           Crocitto                       credit card          8732749229364927
+         4     100.52 Winsome                        Laporte                        credit card          4803849477937930
+         5      97.44 Angel                          Moskowitz                      credit card          8748038774693077
+         6      35.56 Laetia                         Enison                         debt card            5467378937657976
+         7      18.27 Judith                         Olvsade                        credit card          7382749203472027
+         8       32.9 Judy                           Sethi                          credit card          6884993387903579
+         9      69.72 Sean                           Pineda                         credit card          3467907575024528
+        10      60.48 Angela                         Torres                         credit card          9842704784262035
+        11     226.52 Monica                         Waldman                        debt card            2983774665893734
+
+  PRESC_ID TOTAL_COST PAT_FIRST_NAME                 PAT_LAST_NAME                  PAY_METHOD           CARD_NO         
+---------- ---------- ------------------------------ ------------------------------ -------------------- ----------------
+        12      94.36 Catherine                      Mierzwa                        credit card          5379927877466499
+
+12 rows selected. 
+
+
+  PRESC_ID PRESC_DAT PRESC_USE                                            ITEMS_NO PAY_METHOD           CARD_NO          PRESC_NOTE                                                                                            DOCTOR_ID PATIENT_ID CREATED_BY                     DATE_CREA MODIFIED_BY                    DATE_MODI PATIENT_ID PAT_FIRST_NAME                 PAT_LAST_NAME                  PATIENT_D PATIENT_SSN P PAT_ADDRESS                                        PATIENT_TEL  PATIENT_EMAIL                                      CREATED_BY                     DATE_CREA MODIFIED_BY                    DATE_MODI
+---------- --------- -------------------------------------------------- ---------- -------------------- ---------------- ---------------------------------------------------------------------------------------------------- ---------- ---------- ------------------------------ --------- ------------------------------ --------- ---------- ------------------------------ ------------------------------ --------- ----------- - -------------------------------------------------- ------------ -------------------------------------------------- ------------------------------ --------- ------------------------------ ---------
+         1 02-AUG-22 treat inflammation                                          1 credit card          2830174387483284 once a day for 14 days                                                                                        1          3 SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22          3 Angel                          Moskowitz                      22-OCT-94 213-41-9281 F 320 John St., Ft. Lee, NY 07024                    201-293-2846 amoskowitz@gmail.com                               SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+         2 03-AUG-22 treat cold symptoms                                         3 credit card          4734537940355473 for 14 days                                                                                                   4          5 SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22          5 Catherine                      Mierzwa                        18-NOV-96 215-71-4923 F 22-70 41st St., Astoria, NY 11105                  215-387-9027 cmierzwa@gmail.com                                 SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+         3 03-AUG-22 treat hypertension                                          1 credit card          8732749229364927 once a day for 28 days                                                                                        9          1 SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22          1 Fred                           Crocitto                       02-JAN-00 218-51-3692 M 101-09 120th St., Richmond Hill, NY 11419          718-667-5692 fcrocitto@gmail.com                                SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+         4 04-AUG-22 treat stroke                                                1 credit card          4803849477937930 once a day for 28 days                                                                                       10          7 SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22          7 Winsome                        Laporte                        21-MAY-95 213-42-3648 M 268 E. 3rd St, Brooklyn, NY 11226                  718-533-2947 wlaporte@gmail.com                                 SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+         5 05-AUG-22 treat stomach ulcers                                        1 credit card          8748038774693077 four times a day for 28 days                                                                                  1          3 SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22          3 Angel                          Moskowitz                      22-OCT-94 213-41-9281 F 320 John St., Ft. Lee, NY 07024                    201-293-2846 amoskowitz@gmail.com                               SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+         6 08-AUG-22 treat stomach ulcers                                        1 debt card            5467378937657976 twice a day for 14 days                                                                                       1          2 SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22          2 Laetia                         Enison                         16-MAR-98 217-61-9372 F 144-61 87th Ave, Jamaica, NY 11435                 201-632-3857 lenison@gmail.com                                  SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+         7 09-AUG-22 treat stomach ulcers                                        1 credit card          7382749203472027 once a day for 21 days                                                                                        4          4 SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22          4 Judith                         Olvsade                        08-JUN-92 214-61-2847 F 29 Elmwood Ave., Montclair, NY 07042               214-826-1037 jolvsade@gmail.com                                 SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+         8 10-AUG-22 treat allergy                                               1 credit card          6884993387903579 once a day for 10 days                                                                                        7          6 SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22          6 Judy                           Sethi                          12-APR-99 217-81-8237 F 38 Bay 26th St., Brooklyn, NY 11214                716-682-8263 jsethi@gmail.com                                   SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+         9 11-AUG-22 treat hypertension                                          1 credit card          3467907575024528 once a day for 28 days                                                                                       10          8 SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22          8 Sean                           Pineda                         27-AUG-91 212-31-5493 M 3 Salem Rd., New City, NY 10956                    212-573-2074 spineda@gmail.com                                  SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+        10 12-AUG-22 treat stomach pain and ulcers                               2 credit card          9842704784262035 for 14 days                                                                                                   4          9 SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22          9 Angela                         Torres                         05-DEC-92 212-31-1038 F 509 2nd St #4L, Brooklyn, NY 11215                 718-394-3877 atorres@gmail.com                                  SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+        11 15-AUG-22 treat hypertension                                          1 debt card            2983774665893734 once a day for 28 days                                                                                        9         10 SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22         10 Monica                         Waldman                        18-FEB-98 216-71-4037 F 257 Depot Rd., Huntington, NY 11766                718-875-9048 mwaldman@gmail.com                                 SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+
+  PRESC_ID PRESC_DAT PRESC_USE                                            ITEMS_NO PAY_METHOD           CARD_NO          PRESC_NOTE                                                                                            DOCTOR_ID PATIENT_ID CREATED_BY                     DATE_CREA MODIFIED_BY                    DATE_MODI PATIENT_ID PAT_FIRST_NAME                 PAT_LAST_NAME                  PATIENT_D PATIENT_SSN P PAT_ADDRESS                                        PATIENT_TEL  PATIENT_EMAIL                                      CREATED_BY                     DATE_CREA MODIFIED_BY                    DATE_MODI
+---------- --------- -------------------------------------------------- ---------- -------------------- ---------------- ---------------------------------------------------------------------------------------------------- ---------- ---------- ------------------------------ --------- ------------------------------ --------- ---------- ------------------------------ ------------------------------ --------- ----------- - -------------------------------------------------- ------------ -------------------------------------------------- ------------------------------ --------- ------------------------------ ---------
+        12 16-AUG-22 treat pain and inflammation                                 2 credit card          5379927877466499 for 14 days                                                                                                   6          5 SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22          5 Catherine                      Mierzwa                        18-NOV-96 215-71-4923 F 22-70 41st St., Astoria, NY 11105                  215-387-9027 cmierzwa@gmail.com                                 SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+
+12 rows selected. 
+
+
+DRUG_DESC                                          DRUG_TRADEMARK                  DRUG_COST
+-------------------------------------------------- ------------------------------ ----------
+Cetirizine                                         Zyrtec                                .83
+Dicyclomine                                        Bentyl                                .87
+Ranitidine                                         Zantac                                .87
+Ibuprofen                                          Advil                                1.15
+Famotidine                                         Pepcid                               1.27
+Pseudoephedrine                                    Sudafed                              1.31
+Hydrochlorothiazide                                Esidrix                              2.49
+Dexamethasone                                      Decadron                             3.29
+Clopidogrel                                        Plavix                               3.59
+Olmesartan                                         Benicar                              8.09
+
+10 rows selected. 
+
+
+  PRESC_ID DR_FIRST_NAME                  DR_LAST_NAME                   PAT_FIRST_NAME                 PAT_LAST_NAME                 
+---------- ------------------------------ ------------------------------ ------------------------------ ------------------------------
+         1 Fernand                        Hanks                          Angel                          Moskowitz                     
+         2 Rick                           Chow                           Catherine                      Mierzwa                       
+         3 Gary                           Pertez                         Fred                           Crocitto                      
+         4 Irene                          Willig                         Winsome                        Laporte                       
+         5 Fernand                        Hanks                          Angel                          Moskowitz                     
+         6 Fernand                        Hanks                          Laetia                         Enison                        
+         7 Rick                           Chow                           Judith                         Olvsade                       
+         8 Todd                           Smythe                         Judy                           Sethi                         
+         9 Irene                          Willig                         Sean                           Pineda                        
+        10 Rick                           Chow                           Angela                         Torres                        
+
+10 rows selected. 
+
+
+DRUG_DESC                                          MANUFACTURER                                       PHARM_NAME                    
+-------------------------------------------------- -------------------------------------------------- ------------------------------
+Ibuprofen                                          Pfizer                                             CVS Health                    
+Olmesartan                                         Lupin Limited                                      Costco                        
+Clopidogrel                                        Bristol-Myers Squibb                               Walmart                       
+Hydrochlorothiazide                                Merck                                              McKesson                      
+Dexamethasone                                      Fera Pharmaceuticals                               Kroger                        
+Ranitidine                                         GlaxoSmithKline                                    CVS Health                    
+Dexamethasone                                      Fera Pharmaceuticals                               CVS Health                    
+Cetirizine                                         Johnson and Johnson                                Walgreens                     
+Ranitidine                                         GlaxoSmithKline                                    Rite Aid                      
+Dicyclomine                                        Aptalis Pharma Canada                              Walmart                       
+Famotidine                                         Johnson and Johnson                                Rite Aid                      
+
+DRUG_DESC                                          MANUFACTURER                                       PHARM_NAME                    
+-------------------------------------------------- -------------------------------------------------- ------------------------------
+Dexamethasone                                      Fera Pharmaceuticals                               Walgreens                     
+Ibuprofen                                          Pfizer                                             Walgreens                     
+Pseudoephedrine                                    Johnson and Johnson                                Walgreens                     
+Olmesartan                                         Lupin Limited                                      Walgreens                     
+
+15 rows selected. 
+
+
+  PRESC_ID TOTAL_COST
+---------- ----------
+        11     226.52
+         4     100.52
+         3     226.52
+
+
+  PRESC_ID TOTAL_COST PHARM_NAME                    
+---------- ---------- ------------------------------
+         6      35.56 Rite Aid                      
+        10      60.48 CVS Health                    
+        12      94.36 CVS Health                    
+         2       96.6 Walgreens                     
+         3     226.52 Walgreens                     
+         1      46.06 Walgreens                     
+         7      18.27 Rite Aid                      
+
+7 rows selected. 
+
+
+The length of drug name
+-----------------------
+                      9
+                     10
+                     11
+                     10
+                     13
+                     19
+                     10
+                     11
+                     15
+                     10
+
+10 rows selected. 
+
+
+PRESC_DRUG_ID   QUANTITY TOTAL_COST  REFILL_NO BATCH_NO                       EXPIRATIO DISPENSE_ DRUG_CODE    PHARM_ID   PRESC_ID CREATED_BY                     DATE_CREA MODIFIED_BY                    DATE_MODI
+------------- ---------- ---------- ---------- ------------------------------ --------- --------- ---------- ---------- ---------- ------------------------------ --------- ------------------------------ ---------
+            1         14      46.06          1 D01242022                      24-JUL-23 02-AUG-22 D34843734           1          1 SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+            2         42       48.3          2 I07152022                      16-JUL-23 03-AUG-22 I10837332           1          2 SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+            3         14      11.62          2 C05212022                      22-MAY-23 03-AUG-22 C76488378           1          2 SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+            4         28      36.68          2 P08142022                      15-AUG-23 03-AUG-22 P39857223           1          2 SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+            5         28     226.52          3 O03172022                      18-MAR-23 03-AUG-22 O23547364           1          3 SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+            6         28     100.52          3 C04082022                      09-APR-23 04-AUG-22 C53274803           3          4 SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+            7        112      97.44          2 D06132022                      14-JUN-23 05-AUG-22 D20847476           3          5 SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+            8         28      35.56          3 F09192022                      20-SEP-23 08-AUG-22 F68403835           4          6 SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+            9         21      18.27          4 R02172022                      18-FEB-23 09-AUG-22 R87462748           4          7 SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+           10         10       32.9          1 D05182022                      19-MAY-23 10-AUG-22 D34843734           5          8 SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+           11         28      69.72          3 H08222022                      23-AUG-23 11-AUG-22 H47637494           7          9 SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+
+PRESC_DRUG_ID   QUANTITY TOTAL_COST  REFILL_NO BATCH_NO                       EXPIRATIO DISPENSE_ DRUG_CODE    PHARM_ID   PRESC_ID CREATED_BY                     DATE_CREA MODIFIED_BY                    DATE_MODI
+------------- ---------- ---------- ---------- ------------------------------ --------- --------- ---------- ---------- ---------- ------------------------------ --------- ------------------------------ ---------
+           12         42       48.3          2 I10142022                      15-OCT-23 12-AUG-22 I10837332           2         10 SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+           13         14      12.18          2 R07272022                      28-JUL-23 12-AUG-22 R87462748           2         10 SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+           14         28     226.52          3 O03282022                      29-MAR-23 15-AUG-22 O23547364           8         11 SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+           15         42       48.3          2 I08092022                      10-AUG-23 16-AUG-22 I10837332           2         12 SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+           16         14      46.06          2 D04162022                      17-APR-23 16-AUG-22 D34843734           2         12 SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+
+16 rows selected. 
+
+
+1 row deleted.
+
+
+PRESC_DRUG_ID   QUANTITY TOTAL_COST  REFILL_NO BATCH_NO                       EXPIRATIO DISPENSE_ DRUG_CODE    PHARM_ID   PRESC_ID CREATED_BY                     DATE_CREA MODIFIED_BY                    DATE_MODI
+------------- ---------- ---------- ---------- ------------------------------ --------- --------- ---------- ---------- ---------- ------------------------------ --------- ------------------------------ ---------
+            2         42       48.3          2 I07152022                      16-JUL-23 03-AUG-22 I10837332           1          2 SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+            3         14      11.62          2 C05212022                      22-MAY-23 03-AUG-22 C76488378           1          2 SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+            4         28      36.68          2 P08142022                      15-AUG-23 03-AUG-22 P39857223           1          2 SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+            5         28     226.52          3 O03172022                      18-MAR-23 03-AUG-22 O23547364           1          3 SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+            6         28     100.52          3 C04082022                      09-APR-23 04-AUG-22 C53274803           3          4 SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+            7        112      97.44          2 D06132022                      14-JUN-23 05-AUG-22 D20847476           3          5 SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+            8         28      35.56          3 F09192022                      20-SEP-23 08-AUG-22 F68403835           4          6 SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+            9         21      18.27          4 R02172022                      18-FEB-23 09-AUG-22 R87462748           4          7 SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+           10         10       32.9          1 D05182022                      19-MAY-23 10-AUG-22 D34843734           5          8 SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+           11         28      69.72          3 H08222022                      23-AUG-23 11-AUG-22 H47637494           7          9 SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+           12         42       48.3          2 I10142022                      15-OCT-23 12-AUG-22 I10837332           2         10 SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+
+PRESC_DRUG_ID   QUANTITY TOTAL_COST  REFILL_NO BATCH_NO                       EXPIRATIO DISPENSE_ DRUG_CODE    PHARM_ID   PRESC_ID CREATED_BY                     DATE_CREA MODIFIED_BY                    DATE_MODI
+------------- ---------- ---------- ---------- ------------------------------ --------- --------- ---------- ---------- ---------- ------------------------------ --------- ------------------------------ ---------
+           13         14      12.18          2 R07272022                      28-JUL-23 12-AUG-22 R87462748           2         10 SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+           14         28     226.52          3 O03282022                      29-MAR-23 15-AUG-22 O23547364           8         11 SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+           15         42       48.3          2 I08092022                      10-AUG-23 16-AUG-22 I10837332           2         12 SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+           16         14      46.06          2 D04162022                      17-APR-23 16-AUG-22 D34843734           2         12 SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+
+15 rows selected. 
+
+
+Rollback complete.
+
+
+DRUG_CODE  DRUG_DESC                                          DRUG_TRADEMARK                 DRUG_DOSE            DRUG_FORMULA                                       INGREDIENTS                                                                                          DRUG_USES                                                                                             DRUG_COST MANUFACTURER                                       CREATED_BY                     DATE_CREA MODIFIED_BY                    DATE_MODI
+---------- -------------------------------------------------- ------------------------------ -------------------- -------------------------------------------------- ---------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------- ---------- -------------------------------------------------- ------------------------------ --------- ------------------------------ ---------
+I10837332  Ibuprofen                                          Advil                          three times a day    C13H18O2                                           Ibuprofen 200 mg                                                                                     treat mild to moderate pain and arthritis                                                                  1.15 Pfizer                                             SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+O23547364  Olmesartan                                         Benicar                        once a day           C24H26N6O3                                         Olmesartan 20 mg                                                                                     treat high blood pressure (hypertension)                                                                   8.09 Lupin Limited                                      SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+D20847476  Dicyclomine                                        Bentyl                         four times a day     C19H35NO2                                          Dicyclomine 20 mg                                                                                    treat functional bowel or irritable bowel syndrome                                                          .87 Aptalis Pharma Canada                              SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+C76488378  Cetirizine                                         Zyrtec                         once a day           C21H25ClN2O3                                       Cetirizine 10 mg                                                                                     treat cold or allergy symptoms                                                                              .83 Johnson and Johnson                                SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+D34843734  Dexamethasone                                      Decadron                       once a day           C22H29FO5                                          Dexamethasone 10 mg                                                                                  treat many different inflammatory conditions                                                               3.29 Fera Pharmaceuticals                               SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+H47637494  Hydrochlorothiazide                                Esidrix                        once a day           C7H8ClN3O4S2                                       Hydrochlorothiazide 50 mg                                                                            treat high blood pressure (hypertension)                                                                   2.49 Merck                                              SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+F68403835  Famotidine                                         Pepcid                         twice a day          C8H15N7O2S3                                        Famotidine 20 mg                                                                                     treat and prevent ulcers in the stomach and intestines                                                     1.27 Johnson and Johnson                                SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+C53274803  Clopidogrel                                        Plavix                         once a day           C16H16ClNO2S.H2SO4                                 Clopidogrel 75 mg                                                                                    treat stroke, blood clot, or serious heart problem                                                         3.59 Bristol-Myers Squibb                               SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+P39857223  Pseudoephedrine                                    Sudafed                        twice a day          C10H15NO                                           Pseudoephedrine 120 mg                                                                               treat nasal and sinus congestion                                                                           1.31 Johnson and Johnson                                SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+R87462748  Ranitidine                                         Zantac                         once a day           C13H22N4O3S                                        Ranitidine 150 mg                                                                                    treat and prevent ulcers in the stomach and intestines                                                      .87 GlaxoSmithKline                                    SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+
+10 rows selected. 
+
+
+1 row updated.
+
+
+DRUG_CODE  DRUG_DESC                                          DRUG_TRADEMARK                 DRUG_DOSE            DRUG_FORMULA                                       INGREDIENTS                                                                                          DRUG_USES                                                                                             DRUG_COST MANUFACTURER                                       CREATED_BY                     DATE_CREA MODIFIED_BY                    DATE_MODI
+---------- -------------------------------------------------- ------------------------------ -------------------- -------------------------------------------------- ---------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------- ---------- -------------------------------------------------- ------------------------------ --------- ------------------------------ ---------
+I10837332  Ibuprofen                                          Advil                          three times a day    C13H18O2                                           Ibuprofen 200 mg                                                                                     treat mild to moderate pain and arthritis                                                                  1.55 Pfizer                                             SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+O23547364  Olmesartan                                         Benicar                        once a day           C24H26N6O3                                         Olmesartan 20 mg                                                                                     treat high blood pressure (hypertension)                                                                   8.09 Lupin Limited                                      SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+D20847476  Dicyclomine                                        Bentyl                         four times a day     C19H35NO2                                          Dicyclomine 20 mg                                                                                    treat functional bowel or irritable bowel syndrome                                                          .87 Aptalis Pharma Canada                              SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+C76488378  Cetirizine                                         Zyrtec                         once a day           C21H25ClN2O3                                       Cetirizine 10 mg                                                                                     treat cold or allergy symptoms                                                                              .83 Johnson and Johnson                                SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+D34843734  Dexamethasone                                      Decadron                       once a day           C22H29FO5                                          Dexamethasone 10 mg                                                                                  treat many different inflammatory conditions                                                               3.29 Fera Pharmaceuticals                               SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+H47637494  Hydrochlorothiazide                                Esidrix                        once a day           C7H8ClN3O4S2                                       Hydrochlorothiazide 50 mg                                                                            treat high blood pressure (hypertension)                                                                   2.49 Merck                                              SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+F68403835  Famotidine                                         Pepcid                         twice a day          C8H15N7O2S3                                        Famotidine 20 mg                                                                                     treat and prevent ulcers in the stomach and intestines                                                     1.27 Johnson and Johnson                                SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+C53274803  Clopidogrel                                        Plavix                         once a day           C16H16ClNO2S.H2SO4                                 Clopidogrel 75 mg                                                                                    treat stroke, blood clot, or serious heart problem                                                         3.59 Bristol-Myers Squibb                               SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+P39857223  Pseudoephedrine                                    Sudafed                        twice a day          C10H15NO                                           Pseudoephedrine 120 mg                                                                               treat nasal and sinus congestion                                                                           1.31 Johnson and Johnson                                SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+R87462748  Ranitidine                                         Zantac                         once a day           C13H22N4O3S                                        Ranitidine 150 mg                                                                                    treat and prevent ulcers in the stomach and intestines                                                      .87 GlaxoSmithKline                                    SYSTEM                         11-DEC-22 SYSTEM                         11-DEC-22
+
+10 rows selected. 
+
+
+Rollback complete.
+
+
+PRESSCRIPTION_ID PRESCRIPT DOCTOR_FIRST_NAME              DOCTOR_LAST_NAME               PATIENT_FIRST_NAME             PATIENT_LAST_NAME             
+---------------- --------- ------------------------------ ------------------------------ ------------------------------ ------------------------------
+               6 08-AUG-22 Fernand                        Hanks                          Laetia                         Enison                        
+               7 09-AUG-22 Rick                           Chow                           Judith                         Olvsade                       
+               8 10-AUG-22 Todd                           Smythe                         Judy                           Sethi                         
+               9 11-AUG-22 Irene                          Willig                         Sean                           Pineda                        
+              10 12-AUG-22 Rick                           Chow                           Angela                         Torres                        
+              11 15-AUG-22 Gary                           Pertez                         Monica                         Waldman                       
+              12 16-AUG-22 Nina                           Schorin                        Catherine                      Mierzwa                       
+
+7 rows selected. 
+
+
+DRUG_CODE  DRUG_DESC                                          The frequency of prescribed drugs
+---------- -------------------------------------------------- ---------------------------------
+I10837332  Ibuprofen                                                                        .25
+D34843734  Dexamethasone                                                                    .25
+O23547364  Olmesartan                                                                      .167
+R87462748  Ranitidine                                                                      .167
+C76488378  Cetirizine                                                                      .083
+H47637494  Hydrochlorothiazide                                                             .083
+D20847476  Dicyclomine                                                                     .083
+F68403835  Famotidine                                                                      .083
+C53274803  Clopidogrel                                                                     .083
+P39857223  Pseudoephedrine                                                                 .083
+
+10 rows selected. 
+
+
+Pharmacy Name                  Total Sale Prices
+------------------------------ -----------------
+Walgreens                                 369.18
+Costco                                    226.52
+Walmart                                   197.96
+
+
+DOCTOR_FIRST_NAME              DOCTOR_LAST_NAME               DRUG_GENERIC_NAME                                  DRUG_USES                                                                                           
+------------------------------ ------------------------------ -------------------------------------------------- ----------------------------------------------------------------------------------------------------
+Fernand                        Hanks                          Dicyclomine                                        treat functional bowel or irritable bowel syndrome                                                  
+Fernand                        Hanks                          Famotidine                                         treat and prevent ulcers in the stomach and intestines                                              
+Rick                           Chow                           Ranitidine                                         treat and prevent ulcers in the stomach and intestines                                              
+Rick                           Chow                           Ranitidine                                         treat and prevent ulcers in the stomach and intestines                                              
+
+
+PATIENT_FIRST_NAME             PATIENT_FIRST_NAME             The number of prescriptions Prescription payment
+------------------------------ ------------------------------ --------------------------- --------------------
+Angel                          Moskowitz                                                2                143.5
+Laetia                         Enison                                                   1                35.56
+
+
+Pharmaceutical manufacturer                        Drug generic name                                  The total prescribed quantity Total sale prices
+-------------------------------------------------- -------------------------------------------------- ----------------------------- -----------------
+Lupin Limited                                      Olmesartan                                                                    56            453.04
+
+
+Pharmacy Name                  Doctor First Name              Doctor Last Name               Patient First Name             Patient Last Name             
+------------------------------ ------------------------------ ------------------------------ ------------------------------ ------------------------------
+Walgreens                      Fernand                        Hanks                          Angel                          Moskowitz                     
+Kroger                         Todd                           Smythe                         Judy                           Sethi                         
+CVS Health                     Nina                           Schorin                        Catherine                      Mierzwa                       
+
+
+DRUG_DESC                                          SUM(TOTAL_COST)
+-------------------------------------------------- ---------------
+Pseudoephedrine                                              36.68
+
+
+
